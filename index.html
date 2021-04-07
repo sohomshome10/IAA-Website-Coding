@@ -12,10 +12,38 @@
         <link rel="stylesheet" href="css/owl.theme.green.min.css">
         <link rel="stylesheet" type="text/css" href="slick/slick.css">
         <link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+        <link rel="stylesheet" href="venobox/venobox.min.css" type="text/css" media="screen"/>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
         <link rel="icon" href="img/logo.png" type="image/x-icon">
     </head>
     <body>
+      <div class="loader">
+        <div class="spinner-grow text-primary mx-1" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-primary mx-1" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+        <div class="spinner-grow text-primary mx-1" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+      </div>
+      <div class="modals">
+        <div class="modal-bg">
+          <div class="modal-contents text-center">
+            <div class="modal-img">
+              <img src="img/about.png" alt="">
+            </div>
+            <div class="modal-text mt-4">
+              <p class="mb-4"><span>"International Art Acts"</span> is "GlobalBridge" between the organizations which are international and Individual Artists who are more local, but all are necessary, and doing important work towards achieving our goals of "Global Peace".</p>
+              <div class="mbtn"><button>View Website</button></div>
+            </div>
+            <div class="cross">
+              <h2>+</h2>
+            </div>
+          </div>
+        </div>
+      </div>
         <nav class="navbar navbar-expand-lg">
             <div class="container">
                 <a href="#" class="navbar-brand"><img src="img/logo.png" alt="" width="80px"></a>
@@ -62,7 +90,7 @@
             </div>
             <div class="carousel-caption banner-text">
                 <h6>Welcome to</h6>
-                <h2>INTERNATIONAL ART<br>ACTS-PROMOTING<br>PEACE & PROTECTING ARTS.</h2>
+                <h2>INTERNATIONAL ART <br>ACTS-PROMOTING<br>PEACE & PROTECTING ARTS.</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit quidem debitis optio repudiandae sed suscipit sint sit inventore, sapiente, quas similique quod! Neque nemo temporibus fuga, aliquam ipsam numquam, suscipit doloribus sapiente ad aliquid eos.</p>
                 <div class="bbtn">
                   <button>Join US</button>
@@ -78,10 +106,10 @@
         </div>
         <div class="container-fluid" id="about">
           <div class="container">
-            <div class="row pb-5">
+            <div class="row pb-lg-5 pb-2">
               <div class="col-lg-5">
                 <div class="aboutleft text-center">
-                  <img src="img/about.png" alt="">
+                  <img src="img/about.png" alt="" class="img-fluid">
                   <h3>Dr. Dipankar Roy</h3>
                   <p class="mb-0">Global Chairman, President & CEO of<br>International Art Acts</p>
                 </div>
@@ -109,14 +137,14 @@
           <div class="container">
             <div class="row text-center">
               <div class="col-12">
-                <h1 class="mb-0">WE CELEBRATE PEACE IN THE<br>LANGUAGE OF ARTS</h1>
+                <h1 class="mb-0">WE CELEBRATE PEACE IN THE <br>LANGUAGE OF ARTS</h1>
               </div>
             </div>
           </div>
         </div>
         <div class="container-fluid pb-0" id="test">
           <div class="row testwrapper py-3 mb-4">
-            <div class="col-12">
+            <div class="col-12 carou">
               <h1 class="text-center mb-4">Our President</h1>
               <div class="owl-carousel owl-theme">
                 <div class="item">
@@ -405,10 +433,10 @@
           </svg>
           <div class="container">
               <div class="row d-flex justify-content-center">
-                <h1 class="text-uppercase mb-4">Our Gallery</h1>
+                <h1 class="text-uppercase mb-4 text-center">Our Gallery</h1>
               </div>
               <div class="row">
-                <div class="col-12 mx-auto mb-3 text-center">
+                <div class="col-12 mx-auto mb-3 text-center gbtn">
                   <button class="btn text-uppercase" data-filter="all">All</button>
                   <button class="btn text-uppercase" data-filter="1">Art</button>
                   <button class="btn text-uppercase" data-filter="2">Exibition</button>
@@ -447,6 +475,83 @@
           </div>
           </div>
         </div>
+        <div class="container-fluid" id="video">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 mb-4">
+                <h1 class="text-uppercase mb-4 text-center">Our Videos</h1>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="vwrapper">
+                  <div class="video" style="background-image: url(img/v3.jpg); background-size: cover; background-position: center;">
+                    <div class="black"></div>
+                    <a class="venobox" data-autoplay="true" data-vbtype="video" title='"Summer Wonders" The best summer landscape.' href="https://youtu.be/ACcFYF7N1dw" data-gall="myGallery"><i class="far fa-play-circle fa-4x"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="vwrapper">
+                  <div class="video" style="background-image: url(img/v6.jpg); background-size: cover; background-position: center;">
+                    <div class="black"></div>
+                    <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/ludM-0QgTWQ" data-gall="myGallery"><i class="far fa-play-circle fa-4x"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="vwrapper">
+                  <div class="video" style="background-image: url(img/v2.jpg); background-size: cover; background-position: center;">
+                    <div class="black"></div>
+                    <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/ACcFYF7N1dw" data-gall="myGallery"><i class="far fa-play-circle fa-4x"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="vwrapper">
+                  <div class="video" style="background-image: url(img/v7.jpg); background-size: cover; background-position: center;">
+                    <div class="black"></div>
+                    <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/ludM-0QgTWQ" data-gall="myGallery"><i class="far fa-play-circle fa-4x"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="vwrapper">
+                  <div class="video" style="background-image: url(img/v4.jpg); background-size: cover; background-position: center;">
+                    <div class="black"></div>
+                    <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/ACcFYF7N1dw" data-gall="myGallery"><i class="far fa-play-circle fa-4x"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="vwrapper">
+                  <div class="video" style="background-image: url(img/v5.jpg); background-size: cover; background-position: center;">
+                    <div class="black"></div>
+                    <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/ludM-0QgTWQ" data-gall="myGallery"><i class="far fa-play-circle fa-4x"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="vwrapper">
+                  <div class="video" style="background-image: url(img/v1.jpg); background-size: cover; background-position: center;">
+                    <div class="black"></div>
+                    <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/ACcFYF7N1dw" data-gall="myGallery"><i class="far fa-play-circle fa-4x"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="vwrapper">
+                  <div class="video" style="background-image: url(img/v8.jpg); background-size: cover; background-position: center;">
+                    <div class="black"></div>
+                    <a class="venobox" data-autoplay="true" data-vbtype="video" href="https://youtu.be/ludM-0QgTWQ" data-gall="myGallery"><i class="far fa-play-circle fa-4x"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="container-fluid" id="footer">
           <div class="container">
             <div class="row">
@@ -457,10 +562,10 @@
                 <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quod volup tatibus ratione tenetur error ut qui soluta possimus quidem. Vitae quae molestiae incidunt corrupti quas?</p>
               </div>
               <div class="col-lg-2 px-5">
-                <h4 class="mb-5">Menu</h4>
+                <h4 class="mb-lg-5 mt-lg-0 mt-5">Menu</h4>
                 <ul>
                   <li>Home</li>
-                  <li>About Us</li>
+                  <li>About</li>
                   <li>Blogs</li>
                   <li>Gallery</li>
                   <li>Events</li>
@@ -468,7 +573,7 @@
                 </ul>
               </div>
               <div class="col-lg-2 px-5">
-                <h4 class="mb-5">Links</h4>
+                <h4 class="mb-lg-5 mt-lg-0 mt-5">Links</h4>
                 <ul>
                   <li>Terms</li>
                   <li>Privacy</li>
@@ -477,7 +582,7 @@
                 </ul>
               </div>
               <div class="col-lg-4 px-5">
-                <h4 class="mb-4">Stay Connected</h4>
+                <h4 class="mb-lg-5 mt-lg-0 mt-5">Stay Connected</h4>
                 <ul class="social d-flex align-items-center mt-3">
                   <li class="mr-3"><i class="fab fa-facebook-f"></i></li>
                   <li class="mr-3"><i class="fab fa-twitter"></i></li>
@@ -518,6 +623,7 @@
         <script src="js/jquery.filterizr.min.js"></script>
         <script type="text/javascript" src="slick/slick.min.js"></script>
         <script src="js/popper.min.js"></script>
+        <script type="text/javascript" src="venobox/venobox.min.js"></script>
         <script src="js/main.js"></script>
     </body>
 </html>

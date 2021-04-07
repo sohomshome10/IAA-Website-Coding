@@ -10,6 +10,16 @@ function scrollToInnerSection(){
 
     });
 }
+window.onload = function(){
+    document.querySelector('.modal-bg').classList.add('bg-active');
+    document.querySelector('.loader').style.display = 'none';
+};
+document.querySelector('.mbtn').addEventListener('click', function(){
+    document.querySelector('.modal-bg').classList.remove('bg-active');
+});
+document.querySelector('.cross h2').addEventListener('click', function(){
+    document.querySelector('.modal-bg').classList.remove('bg-active');
+});
 $(function(){
     // Hamburger toggle.
     $('.hamburger').click(function(){
@@ -58,4 +68,9 @@ $(function(){
         layout: 'sameSize',
     });
     scrollToInnerSection();
+    $('.venobox').venobox({
+        overlayColor: 'rgba(0, 0, 0, 0.9)',
+        spinner: 'cube-grid',
+        spinColor: '#0496ff',
+    });
 });
