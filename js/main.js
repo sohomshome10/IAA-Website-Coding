@@ -16,10 +16,17 @@ window.onload = function(){
 };
 document.querySelector('.mbtn').addEventListener('click', function(){
     document.querySelector('.modal-bg').classList.remove('bg-active');
+    document.querySelector('body').classList.remove('no-scroll');
 });
 document.querySelector('.cross h2').addEventListener('click', function(){
     document.querySelector('.modal-bg').classList.remove('bg-active');
+    document.querySelector('body').classList.remove('no-scroll');
 });
+if(document.querySelector('.modal-bg').classList.contains('bg-active')){
+    document.querySelector('body').classList.remove('no-scroll');
+}else{
+    document.querySelector('body').classList.add('no-scroll');
+}
 $(function(){
     // Hamburger toggle.
     $('.hamburger').click(function(){
